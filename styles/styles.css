@@ -1,3 +1,4 @@
+/* ID styling */
 #bodyStyle {
     margin: 75px 125px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,6 +16,7 @@
     font-size: large;
 }
 
+/* CLASS styling */
 .titleElement {
     font-style: oblique;
     font-weight: bold;
@@ -45,4 +47,21 @@
 
 .tableSpacing {
     padding: 15px 0px;
+}
+
+/* SELECTOR styling */
+body {
+    color: khaki;
+}
+
+div h3 {
+    color: black;
+}
+
+h3 {
+    color: crimson;
+}
+
+tr {
+    color: brown;
 }
