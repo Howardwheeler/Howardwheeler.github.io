@@ -51,7 +51,19 @@
 
 /* SELECTOR styling */
 body {
-    color: khaki;
+    background-color: khaki;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    font-weight: bolder;
 }
 
 div h3 {
