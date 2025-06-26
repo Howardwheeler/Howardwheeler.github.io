@@ -1,0 +1,48 @@
+#bodyStyle {
+    margin: 75px 125px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+#headerStyle {
+    margin: -50px 50px;
+    margin-right: 15px;
+    font-size: x-large;
+}
+
+#headerAboutMe {
+    font-weight: normal;
+    font-size: large;
+}
+
+.titleElement {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contentElement {
+    padding: 0px 20px;
+    width: 100%;
+    font-size: large;
+}
+
+.listElement {
+    font-size: larger;
+}
+
+.align-right {
+    text-align: right;
+    white-space: nowrap;
+    padding-bottom: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.tableSpacing {
+    padding: 15px 0px;
+}
