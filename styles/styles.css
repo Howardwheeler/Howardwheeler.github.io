@@ -1,57 +1,88 @@
 /* ID styling */
-#bodyStyle {
-    margin: 75px 125px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
-}
-
 #headerStyle {
     margin: -50px 50px;
     margin-right: 15px;
     font-size: x-large;
+    text-align: center;
 }
 
-#headerAboutMe {
-    font-weight: normal;
-    font-size: large;
+#headshot {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 25%;
+}
+
+#skillsList {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#skillsList li {
+    display: flex;
+}
+
+#skillsList li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#skillsList li a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+#courseworkList {
+    padding-left: 0;
+    text-align: center;
+}
+
+#courseworkList li {
+    display: block;
+    font-size: x-large;
+}
+
+#courseworkList li a {
+    text-decoration: none;
+}
+
+#courseworkList li a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
 }
 
 /* CLASS styling */
-.titleElement {
-    font-style: oblique;
-    font-weight: bold;
-    font-size: xx-large;
-    margin-bottom: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.contentElement {
-    padding: 0px 20px;
-    width: 100%;
-    font-size: large;
-}
-
-.listElement {
-    font-size: larger;
-}
-
 .align-right {
     text-align: right;
     white-space: nowrap;
-    padding-bottom: 15px;
+}
+
+.align-center {
+    align-items: center;
 }
 
 .flex {
     display: flex;
 }
 
-.tableSpacing {
-    padding: 15px 0px;
+.hover-img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.project_text {
+    width: auto;
+    margin: 25px;
+    font-size: 22px;
 }
 
 /* SELECTOR styling */
 body {
-    background-color: khaki;
+    margin: 75px 125px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #F9FAFB;
 }
 
 a:link {
@@ -68,12 +99,30 @@ a:hover {
 
 div h3 {
     color: black;
+    font-weight: normal;
+    font-size: large;
 }
 
 h3 {
-    color: crimson;
+    color: #1E40AF;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
-tr {
-    color: brown;
+table {
+    width: 100%;
+}
+
+tr, li {
+    color: #4B5563;
+}
+
+td, li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
 }
