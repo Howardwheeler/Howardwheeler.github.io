@@ -12,6 +12,31 @@
     border-radius: 25%;
 }
 
+#clubSection {
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+#educationSection {
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+#courseworkSection {
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+#skillsSection {
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+#projectsSection {
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
 #skillsList {
     display: flex;
     justify-content: space-evenly;
