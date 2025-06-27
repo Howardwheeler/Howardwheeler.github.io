@@ -19,28 +19,38 @@
 }
 
 #clubSection {
-    background-color: #4FAAF9;
-    border-radius: 10px;
+    background-color: #2B6CB0;
+    border-radius: 40px;
+    padding: 2px 20px;
+    margin: 10px;
 }
 
 #educationSection {
-    background-color: #4FAAF9;
-    border-radius: 10px;
+    background-color: #2B6CB0;
+    border-radius: 40px;
+    padding: 2px 20px;
+    margin: 10px;
 }
 
 #courseworkSection {
-    background-color: #4FAAF9;
-    border-radius: 10px;
+    background-color: #2B6CB0;
+    border-radius: 40px;
+    padding: 2px 20px;
+    margin: 10px;
 }
 
 #skillsSection {
-    background-color: #4FAAF9;
-    border-radius: 10px;
+    background-color: #2B6CB0;
+    border-radius: 40px;
+    padding: 2px 20px;
+    margin: 10px;
 }
 
 #projectsSection {
-    background-color: #4FAAF9;
-    border-radius: 10px;
+    background-color: #2B6CB0;
+    border-radius: 40px;
+    padding: 2px 20px;
+    margin: 10px;
 }
 
 #skillsList {
@@ -106,6 +116,7 @@
     width: auto;
     margin: 25px;
     font-size: 22px;
+    color: white;
 }
 
 /* SELECTOR styling */
@@ -120,8 +131,12 @@ a:link {
     color: black;
 }
 
+li a:link {
+    color: white;
+}
+
 a:visited {
-    color: purple;
+    color: pink;
 }
 
 a:hover {
