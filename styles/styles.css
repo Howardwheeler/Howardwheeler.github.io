@@ -12,28 +12,34 @@
     border-radius: 25%;
 }
 
+#aboutmeSection {
+    color: black;
+    font-weight: normal;
+    font-size: large;
+}
+
 #clubSection {
-    background-color: dimgray;
+    background-color: #4FAAF9;
     border-radius: 10px;
 }
 
 #educationSection {
-    background-color: dimgray;
+    background-color: #4FAAF9;
     border-radius: 10px;
 }
 
 #courseworkSection {
-    background-color: dimgray;
+    background-color: #4FAAF9;
     border-radius: 10px;
 }
 
 #skillsSection {
-    background-color: dimgray;
+    background-color: #4FAAF9;
     border-radius: 10px;
 }
 
 #projectsSection {
-    background-color: dimgray;
+    background-color: #4FAAF9;
     border-radius: 10px;
 }
 
@@ -122,14 +128,8 @@ a:hover {
     font-weight: bolder;
 }
 
-div h3 {
-    color: black;
-    font-weight: normal;
-    font-size: large;
-}
-
 h3 {
-    color: #1E40AF;
+    color: white;
     font-weight: bolder;
     font-size: 50px;
     margin-top: 30px;
@@ -143,11 +143,16 @@ table {
 }
 
 tr, li {
-    color: #4B5563;
+    color: lightgray;
 }
 
 td, li {
     padding-bottom: 10px;
     padding-left: 10px;
     font-size: 20px;
+}
+
+/*Removal of Scrollbar*/
+body::-webkit-scrollbar {
+    display: none;
 }
